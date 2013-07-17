@@ -1,0 +1,72 @@
+html { overflow-y: scroll; }
+header a.brand { font-family: Georgia, "Times New Roman", Times, serif; }
+.brand .icon-fire { color: #7C403C; }
+.brand:hover .icon-fire { color: #9d261d; }
+h1, div.hero-unit h1, h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #9d261d;
+}
+h1 { text-shadow: #DDD 1px 1px, #DDD 2px 2px; }
+/*[itemtype="http://schema.org/Organization"] [itemprop~="name"]*/
+div.hero-unit h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: #777 1px 1px, #777 2px 2px;
+}
+h1 i {
+  text-transform: none;
+  font-style: italic;
+}
+address p {
+  margin-bottom:0;
+  line-height:0;
+}
+blockquote p {
+  margin-bottom:inherit;
+}
+#site-footer { padding:20px; }
+#site-footer .container { margin-top:20px; }
+.carousel-message { margin-top: .5em; }
+.carousel-message .carousel-inner .item {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #000;
+  color: #DDD;
+  font-size: 2.5em;
+  padding: 1em;
+  height: 4em;
+}
+.carousel-message .carousel-label {
+  color:white;
+}
+
+/* RESPONSIVE */
+
+.hero-unit h1 { font-size: 52px; }
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .hero-unit h1 { font-size: 60px; }
+  .carousel-message .carousel-inner .item { font-size:3em; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .hero-unit h1 { font-size: 39px; }
+  .carousel-message .carousel-inner .item { font-size:2em; }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .hero-unit h1 { font-size: 38px; }
+  .hero-unit {
+    padding: 20px 10px;
+    margin: 0 -10px;
+  }
+  .carousel-message .carousel-inner .item { font-size:1.5em; }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .hero-unit h1 { font-size: 37px; }
+  .carousel-message .carousel-inner .item { font-size:1em; height:5em; padding:1em .5em; }
+}

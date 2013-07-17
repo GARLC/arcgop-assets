@@ -1,0 +1,29 @@
+{
+  "name": "arcgop-assets",
+  "version": "0.0.0",
+  "description": "arcgop-assets =============",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "bower": "~0.10.0",
+    "grunt-recess": "~0.3.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GARLC/arcgop-assets.git"
+  },
+  "author": "kaleb@horns.by",
+  "license": "Apache",
+  "readmeFilename": "README.md",
+  "gitHead": "f4136b8ebba0030b18dda5631ef394a4f4d90271",
+  "publish": false
+}
